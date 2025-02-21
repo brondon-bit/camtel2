@@ -1,0 +1,44 @@
+ /* Styles généraux */ body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
+
+header { background-color: #007BFF; color: white; text-align: center; padding: 20px 0; font-size: 24px; }
+
+main { width: 90%; max-width: 1000px; margin: 20px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
+
+/* Styles du tableau */ table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+
+thead { background-color: #007BFF; color: white; }
+
+thead th { padding: 10px; text-align: left; }
+
+tbody tr:nth-child(even) { background-color: #f2f2f2; }
+
+tbody tr:hover { background-color: #ddd; }
+
+td, th { padding: 10px; border: 1px solid #ccc; }
+
+/* Bouton Supprimer */ td a { text-decoration: none; color: white; background-color: red; padding: 5px 10px; border-radius: 4px; font-size: 14px; }
+
+td a:hover { background-color: darkred; }
+/* Styles généraux */ body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
+
+header { background-color: #007bff; color: white; text-align: center; padding: 15px 0; font-size: 24px; font-weight: bold; }
+
+main { width: 90%; max-width: 1200px; margin: 20px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+
+/* Table styles */ table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+
+thead { background-color: #007bff; color: white; }
+
+thead th { padding: 12px; text-align: left; }
+
+tbody td { padding: 10px; border-bottom: 1px solid #ddd; }
+
+tbody tr:nth-child(even) { background-color: #f9f9f9; }
+
+tbody tr:hover { background-color: #f1f1f1; }
+
+a { color: red; text-decoration: none; font-weight: bold; }
+
+a:hover { text-decoration: underline; }
+
+/* Responsive */ @media (max-width: 768px) { table { display: block; overflow-x: auto; white-space: nowrap; } }
